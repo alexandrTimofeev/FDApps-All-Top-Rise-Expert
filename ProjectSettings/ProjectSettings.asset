@@ -9,11 +9,11 @@ PlayerSettings:
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
   defaultScreenOrientation: 0
-  targetDevice: 2
+  targetDevice: 0
   useOnDemandResources: 0
   accelerometerFrequency: 0
-  companyName: Zinora
-  productName: Flight Pro Expert
+  companyName: curs
+  productName: Top Rise Expert
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.9333334, g: 0.6627451, b: 0.6156863, a: 1}
@@ -169,7 +169,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.Zinora.FlightProExpert
     Standalone: com.Company.ProductName
-    iPhone: com.nonothing.PaperPlanes3D
+    iPhone: com.curs.toprisemoments
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -301,7 +301,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: 9b69a1e02bd5db94bbb7ea21a6966a27, type: 3}
+      m_Icon: {fileID: 2800000, guid: 161549042ff4ab34ca3548404664bb49, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -568,6 +568,9 @@ PlayerSettings:
   - serializedVersion: 3
     m_BuildTarget: Android
     m_Formats: 01000000
+  - serializedVersion: 3
+    m_BuildTarget: iOS
+    m_Formats: 03000000
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -891,8 +894,8 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Template_2D
-  metroPackageVersion: 
+  metroPackageName: Template2D
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -900,7 +903,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Template_2D
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Flight Pro Expert
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
